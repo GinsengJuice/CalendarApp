@@ -1,0 +1,15 @@
+export const getMessagesKO = () => ({
+    allDay: '하루 종일',
+    previous: '이전',
+    next: '다음',
+    today: '오늘',
+    month: '월',
+    week: '주',
+    day: '일',
+    agenda: '일정 목록',
+    date: '날짜',
+    time: '시간',
+    event: '이벤트',
+    noEventsInRange: '해당 기간에 일정이 없습니다.',
+    showMore: total => `+${total}개 더 보기`,
+});
